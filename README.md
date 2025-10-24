@@ -25,7 +25,7 @@ For debugging in UI mode:
 npx playwright test --ui
 ```
 # Project Straucture 
-
+```
 sohoj-ui-automation/
 ├── .github/
 │ └── workflows/
@@ -48,8 +48,8 @@ sohoj-ui-automation/
 ├── package.json
 ├── playwright.config.ts
 └── README.md
-
+```
 # Notes 
 
 Please note that, after selecting the booking parameters; there were only a single vendor for tickets. This hindered further assertions of the ticket price comparison as asked for. 
-Also, in aspect of design pattern, POM can be used for this flow for better usuablity for further test scope./n # small text add using cli
+Also, in aspect of design pattern, POM can be used for this flow for better usuablity for further test scope.

@@ -1,6 +1,12 @@
 import { test, expect } from '@playwright/test';
 
-test('test', async ({ page }) => {
+// test.only('test one way mode is selected', async ({ page }) => {
+//   await page.goto('https://www.shohoz.com/air-tickets');
+//   const oneWayBtn = page.getByRole('tab', { name: 'One Way' });
+//   expect(oneWayBtn).toHaveClass('.active')
+// });
+
+test('test flight booking', async ({ page }) => {
   try{
     await page.goto('https://www.shohoz.com/air-tickets');
   }
