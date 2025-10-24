@@ -24,7 +24,7 @@ For debugging in UI mode:
 ```sh
 npx playwright test --ui
 ```
-# Project Straucture 
+# Project Structure 
 ```
 sohoj-ui-automation/
 ├── .github/
